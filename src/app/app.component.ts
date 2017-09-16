@@ -24,6 +24,7 @@ const HEROES: Hero[] = [
 })
 export class AppComponent {
 
+
    selectedHero: Hero ;
    title  = 'Tour of Heroes';
    heroes: Hero[] = HEROES;
