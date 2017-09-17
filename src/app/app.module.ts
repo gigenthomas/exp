@@ -9,6 +9,8 @@ import { HeroService } from './hero.service';
 import {DashboardComponent} from "./dashboard.component";
 import {AppRoutingModule} from "./app-routing.module";
 import {JokeComponent} from "./joke.component";
+import {JokeListComponent} from "./jokelist.component";
+import {JokeFormComponent} from "./jakeform.component";
 
 @NgModule({
   imports: [
@@ -21,7 +23,9 @@ import {JokeComponent} from "./joke.component";
     DashboardComponent,
     HeroDetailComponent,
     HeroesComponent,
-    JokeComponent
+    JokeComponent,
+    JokeListComponent,
+    JokeFormComponent
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]
