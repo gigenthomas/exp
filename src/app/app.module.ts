@@ -13,6 +13,7 @@ import {JokeListComponent} from "./jokelist.component";
 import {JokeFormComponent} from "./jakeform.component";
 import { D3Service } from 'd3-ng2-service';
 import { BrushZoom2Component } from './brushzoom2.component';
+import { D3TreeComponent } from './d3tree.component';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { BrushZoom2Component } from './brushzoom2.component';
     JokeComponent,
     JokeListComponent,
     JokeFormComponent,
-    BrushZoom2Component
+    BrushZoom2Component,
+    D3TreeComponent
   ],
   providers: [ HeroService , D3Service],
   bootstrap: [ AppComponent ]
