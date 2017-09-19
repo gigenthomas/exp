@@ -87,7 +87,7 @@ export class D3TreeComponent implements OnInit, OnDestroy {
 
 
     if (this.parentNativeElement !== null) {
-
+/*
       d3ParentElement = d3.select(this.parentNativeElement);
       d3Svg = this.d3Svg = d3ParentElement.select<SVGSVGElement>('svg');
 
@@ -188,7 +188,7 @@ export class D3TreeComponent implements OnInit, OnDestroy {
 
       update(treeData);
 
-
+*/
 
   }
 }

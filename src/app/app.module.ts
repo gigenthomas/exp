@@ -14,6 +14,7 @@ import {JokeFormComponent} from "./jakeform.component";
 import { D3Service } from 'd3-ng2-service';
 import { BrushZoom2Component } from './brushzoom2.component';
 import { D3TreeComponent } from './d3tree.component';
+import { SignupFormComponent } from './signupform.component';
 
 @NgModule({
   imports: [
@@ -31,7 +32,8 @@ import { D3TreeComponent } from './d3tree.component';
     JokeListComponent,
     JokeFormComponent,
     BrushZoom2Component,
-    D3TreeComponent
+    D3TreeComponent,
+    SignupFormComponent
   ],
   providers: [ HeroService , D3Service],
   bootstrap: [ AppComponent ]
