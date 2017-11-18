@@ -1,0 +1,9 @@
+<div class="row flex-nowrap">
+  <div class="col-md col-12 node-tree" >
+    <app-tree-diagram style="background-color: #f0f0f0;"
+      *ngIf="nodes"
+      [(data)]="nodes"
+      (onNodeClicked)="showNodeChildren($event)"
+      (onNodeDblClicked)="showNodeDetails($event)" >
+    </app-tree-diagram>
+  </div>

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { TreeNodeType } from './shared/types';
 
 
 @Component({
@@ -10,5 +11,6 @@ export class AppComponent  {
 
 
   title = 'Tour of Heroes';
+
 
 }
