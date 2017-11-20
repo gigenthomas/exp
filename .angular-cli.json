@@ -3,6 +3,10 @@
   "project": {
     "name": "exp"
   },
+  "styles": [
+    "styles.css",
+    "../node_modules/ng2-tree/styles.css"
+  ],
   "apps": [
     {
       "root": "src",

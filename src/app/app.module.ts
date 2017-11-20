@@ -16,13 +16,16 @@ import { BrushZoom2Component } from './brushzoom2.component';
 import { TreeDiagramComponent } from './treediagram.component';
 
 import { DocumentComponent } from './document/document.component';
+import { Tree2Component } from './tree2/tree2.component';
+import { TreeModule } from 'ng2-tree';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TreeModule
   ],
   declarations: [
     AppComponent,
@@ -33,11 +36,11 @@ import { DocumentComponent } from './document/document.component';
     JokeListComponent,
     JokeFormComponent,
     BrushZoom2Component,
-    TreeDiagramComponent,
-
+     TreeDiagramComponent,
+      Tree2Component,
   DocumentComponent
   ],
-  providers: [ HeroService , D3Service],
+  providers: [ HeroService , D3Service  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule {

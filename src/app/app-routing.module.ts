@@ -10,6 +10,7 @@ import { BrushZoom2Component } from './brushzoom2.component';
 import { TreeDiagramComponent } from './treediagram.component';
 
 import { DocumentComponent } from './document/document.component';
+import { Tree2Component } from './tree2/tree2.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -18,7 +19,10 @@ const routes: Routes = [
   { path: 'heroes',     component: HeroesComponent },
   { path: 'joke',       component: JokeListComponent },
   { path: 'd3',         component: BrushZoom2Component },
-  { path: 'd3tree',     component: DocumentComponent }
+  { path: 'd3tree',     component: DocumentComponent },
+  { path: 'ng2tree',      component: Tree2Component }
+
+  
 
   
 ];
